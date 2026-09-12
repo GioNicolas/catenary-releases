@@ -66,7 +66,7 @@ winget install Catenary.Catenary
 ## 🐞 Bug Reports & Feature Requests
 
 Found a bug or have an idea to make Catenary better?  
-Please [open an issue here](https://github.com/GioNicolas/catenary-releases/issues) on GitHub or send a -email to: support@thecatenary.app .
+Please [open an issue here](https://github.com/GioNicolas/catenary-releases/issues) on GitHub or send a e-mail to: support@thecatenary.app .
 
 ---
 
