@@ -31,15 +31,15 @@ brew install --cask catenary
 winget install Catenary.Catenary
 ```
 
-### Direct Downloads (Latest v1.0.4)
+### Direct Downloads (Latest v1.0.5)
 
 | Operating System | Package Format | Download Link |
 | :--- | :--- | :--- |
-| **macOS (Apple Silicon)** | `.dmg` / `.zip` | [Download arm64.dmg](https://github.com/GioNicolas/catenary-releases/releases/latest/download/Catenary-1.0.4-arm64.dmg) |
-| **macOS (Intel)** | `.dmg` / `.zip` | [Download x64.dmg](https://github.com/GioNicolas/catenary-releases/releases/latest/download/Catenary-1.0.4-x64.dmg) |
-| **Windows (x64)** | Setup `.exe` / `.zip` | [Download Setup.exe](https://github.com/GioNicolas/catenary-releases/releases/latest/download/Catenary-Setup-1.0.4.exe) |
-| **Linux (Universal)** | `.AppImage` | [Download AppImage](https://github.com/GioNicolas/catenary-releases/releases/latest/download/Catenary-1.0.4.AppImage) |
-| **Linux (Debian/Ubuntu)** | `.deb` | [Download .deb](https://github.com/GioNicolas/catenary-releases/releases/latest/download/catenary_1.0.4_amd64.deb) |
+| **macOS (Apple Silicon)** | `.dmg` / `.zip` | [Download arm64.dmg](https://github.com/GioNicolas/catenary-releases/releases/latest/download/Catenary-1.0.5-arm64.dmg) |
+| **macOS (Intel)** | `.dmg` / `.zip` | [Download x64.dmg](https://github.com/GioNicolas/catenary-releases/releases/latest/download/Catenary-1.0.5-x64.dmg) |
+| **Windows (x64)** | Setup `.exe` / `.zip` | [Download Setup.exe](https://github.com/GioNicolas/catenary-releases/releases/latest/download/Catenary-Setup-1.0.5.exe) |
+| **Linux (Universal)** | `.AppImage` | [Download AppImage](https://github.com/GioNicolas/catenary-releases/releases/latest/download/Catenary-1.0.5.AppImage) |
+| **Linux (Debian/Ubuntu)** | `.deb` | [Download .deb](https://github.com/GioNicolas/catenary-releases/releases/latest/download/catenary_1.0.5_amd64.deb) |
 
 ---
 
