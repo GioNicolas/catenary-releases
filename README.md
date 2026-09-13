@@ -4,9 +4,6 @@
 
 ### The Infinite Spatial Canvas IDE for AI Coding Agents
 
-An infinite 2D zoomable workspace designed for coordinating multi-agent workflows.  
-Wire agents together with visual cables, isolate work into parallel task islands, and code 100% local-first.
-
 [![Release](https://img.shields.io/github/v/release/GioNicolas/catenary-releases?style=for-the-badge&color=blue)](https://github.com/GioNicolas/catenary-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/GioNicolas/catenary-releases/total?style=for-the-badge&color=success)](https://github.com/GioNicolas/catenary-releases/releases)
 [![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-orange?style=for-the-badge)](https://thecatenary.app)
@@ -15,6 +12,14 @@ Wire agents together with visual cables, isolate work into parallel task islands
 [**Website & Download**](https://thecatenary.app) · [**Report Issue**](https://github.com/GioNicolas/catenary-releases/issues) · [**Changelog**](https://github.com/GioNicolas/catenary-releases/releases)
 
 </div>
+
+---
+
+Draw a line from one agent to another and their work connects. What one finishes becomes what the next one starts — flowing on its own, or only when an agent asks for it. You decide, wire by wire. No more copying context between windows.
+
+It's a full workspace, not a chat box. Terminals, Monaco editors, browsers, documents and parallel git worktrees all live on the same surface — pan, zoom, drag anything anywhere. Close the folder and everything comes back exactly where you left it.
+
+Then turn on **Maestro Mode**, and one agent builds its own team: it recruits up to five agents, hands each one the objective, and wires them to itself. Every move it makes stops at a card you can edit before you approve it. The team organizes itself. You stay the one who says yes.
 
 ---
 
@@ -43,13 +48,17 @@ winget install Catenary.Catenary
 
 ---
 
-## ✨ Key Features
+## ✨ What's Inside
 
-- 🔌 **Visual Context Wires:** Connect agent terminals together with visual cables. Pipe output buffers from planning models directly into execution agents seamlessly.
-- 🏝️ **Task Islands & Maestro Mode:** Spin up isolated workspace islands on the 2D canvas with dedicated Git Worktrees. Run full agent squads (Architect, Implementer, QA Tester, Reviewer) in parallel without branch collision.
-- ⚡ **Native GPU-Accelerated Terminals:** Backed by native C++ `node-pty` and `@xterm/xterm` with WebGL rendering, maintaining steady 60 FPS even under heavy build logs.
-- 🔒 **100% Local-First & Private:** No cloud accounts, zero telemetry, full offline capability. Your code, worktrees, and API keys remain strictly on your machine.
-- 🖥️ **Unified Spatial Workspace:** Monaco code editors, PTY terminals, local embedded webview browser, and documentation readers arranged side-by-side on an infinite zoomable canvas.
+- **Wires between agents** — a directed line from one terminal to another. Set it to relay automatically when the source goes quiet, or leave it as a standing permission so the agent downstream only receives what it asks for.
+- **Maestro Mode** — one agent recruits, briefs and connects a team of up to five. Off by default, flipped by a human click, and every action it takes opens an editable approval card before anything appears on the canvas.
+- **Agent-aware terminals** — supported agent CLIs (Claude Code, Codex, Cursor, Grok, OpenCode, Pi) report turn start, turn end and permission prompts, so each panel shows whether its agent is working, waiting or done — and notifies you the moment one needs an answer.
+- **Worktrees for parallel branches** — describe what you're working on and Catenary creates the worktree and branch. Each gets a colour that follows it through the sidebar, the dock tabs and its own territory on the canvas.
+- **Infinite canvas + docking** — float panels anywhere, dock them as tabs and splits, or detach them into their own windows. The whole layout is restored when you reopen the folder.
+- **A full IDE around it** — Monaco editors with diffs, embedded browsers, document viewers, a git-aware file tree, project search, source control and a built-in agent chat.
+- **Local and remote take the same path** — one runtime daemon serves every workspace. Point Catenary at a host over SSH or WSL and terminals, git, search and agents run there while editors, browsers and the canvas stay local.
+- **A CLI agents can call** — from inside a terminal, `catenary` drives a browser panel, reads another terminal, opens files and manages panels. Settings → CLI grants each surface separately for reading and for controlling.
+- **100% Local-First & Private** — no cloud accounts, zero telemetry, full offline capability. Your code, worktrees, and API keys remain strictly on your machine.
 
 ---
 
@@ -66,7 +75,7 @@ winget install Catenary.Catenary
 ## 🐞 Bug Reports & Feature Requests
 
 Found a bug or have an idea to make Catenary better?  
-Please [open an issue here](https://github.com/GioNicolas/catenary-releases/issues) on GitHub or send a e-mail to: support@thecatenary.app .
+Please [open an issue here](https://github.com/GioNicolas/catenary-releases/issues) on GitHub or send an email to: [support@thecatenary.app](mailto:support@thecatenary.app).
 
 ---
 
